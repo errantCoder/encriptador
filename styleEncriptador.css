@@ -1,0 +1,185 @@
+.principal{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background-image: url("recursos/ghibli-casa.jpg");
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px; 
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.entradaTexto{
+    border-radius: 10px;
+    position: absolute;
+    left: 240px;
+    top: 168px;
+    display: block;
+    background: #9dcc8a;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    resize:none;
+}
+
+.rectangulo{
+    position: absolute;
+    list-style: none;
+    padding: 0 0 0 40px ;
+    width: 400px;
+    height: 80%;
+    left: 1000px;
+    top: 40px;
+    background: #8d7a5e;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.munheco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 100px;
+    left: 55px;
+}
+
+.mensajeEncontrado{
+    border-radius: 10px;
+    width: 336px;
+    height: 200px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    background: #928673;
+    color: #19348b;
+    top: 410px;
+    left: 55px;
+    border-style: none;
+    resize:none;
+}
+
+.consejo{
+    position: absolute;
+    width: 380px;
+    height: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #c2c8ce;
+    top: 650px;
+}
+
+.admiracion{
+    background: #CED4DA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    left: 240px;
+    top: 651px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 685px;
+}
+
+.botonEncriptar{
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #085819;
+    background: #0a7113;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.botonDesencriptar{
+    box-sizing: border-box;
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    background: #d8e8d9;
+    border: 1px solid #085819; /*dise;o del borde*/
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+}
+
+.copy{
+    position: absolute;
+    left: 180px;
+    top: 80px;    
+    padding: 24px;
+    width: 328px;
+    height: 67px;
+    border: 1px solid #085819;
+    background: #35a958;
+    border-radius: 24px;
+    color: #CED4DA;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: #FFFFFF;
+    background: url(recursos/footer.jpg);
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styleEncriptador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body class="principal">
+ 
+        <header>
+
+            <div  class="logo">
+                <img src="recursos/Logo.png" alt="logo">
+            </div>
+ 
+        </header>
+
+        <!--
+        <audio controls>
+            <source src="forelisa.mp3" type="audio/mp3">
+            
+        </audio> 
+        -->
+
+        <main>
+
+            <section>
+
+                <textarea cols="30" rows="8" required placeholder="Cuéntale tu secreto al bosque" class="entradaTexto"></textarea>
+
+                <section class="dom">
+                    <div>
+    
+                        <!-- <script>
+    
+                            function encriptarTexto() {
+                            document.getElementById("myDIV").style.display = "none";
+                            }
+    
+                            function desencriptarTexto() {
+                            document.getElementById("DIV").style.display = "none";
+                            }
+    
+                        </script> -->
+    
+                        <div class="botones">
+    
+                            <button type="button" class="botonEncriptar" onclick="encriptarTexto()">Encriptar</button>
+                            <button type="button" class="botonDesencriptar" onclick="desencriptarTexto()">Desencriptar</button>
+                            <button type="button" class="copy" onclick="copy()">Copiar</button>
+                                                                                                                                                               
+                        </div>
+    
+                    </div>
+                </section>
+
+                <div class="rectangulo">
+                    <img src="recursos/995e9c2a5e6c5e04e568ad6e86a9851be5a974dd_00.gif" alt="Personaje con lupa" class="munheco" id="myDIV">
+                    <textarea readonly wrap="hard" required placeholder="Los arboles no han escuchado tu voz" class="mensajeEncontrado"></textarea>
+                    <!-- <p class="mensajeEncontrado">Ningún mensaje fue encontrado</p> -->
+                    <p class="consejo">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+
+                <img class="admiracion" src="recursos/admiracion.png" alt="Signo de admiración">
+           
+            </section>
+            
+        </main>
+        
+        <footer>
+
+            <img src="recursos/Logo.png" alt="logo de alura">
+            <p class="copyright">&copy Copyright Jair Munguía - 2022</p>
+             
+        </footer>
+
+    </body>
+
+    <script src="script.js"></script>
+</html> 
